@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bateria</title>
+</head>
+<body>
+    <section class="teclado">
+        <button class="tecla tecla_pom" onclick="tocaSomPom">Pom</button>
+        <button class="tecla tecla_clap" onclick="tocaSomClap">Clap</button>
+        <button class="tecla tecla_tim" onclick="tocaSomTim">Tim</button>
+        <button class="tecla tecla_puff" onclick="tocaSomPuff">Puff</button>
+        <button class="tecla tecla_splash" onclick="tocaSomSplash">Splash</button>
+        <button class="tecla tecla_toim" onclick="tocaSomToim">Toim</button>
+        <button class="tecla tecla_psh" onclick="tocaSomPsh">Psh</button>
+        <button class="tecla tecla_tic" onclick="tocaSomTic">Tic</button>
+        <button class="tecla tecla_tom" onclick="tocaSomTom">Tom</button>
+
+    </section>
+
+    <audio src="keyq.wav" id="som_tecla_pom"></audio>
+    <audio src="keyw.wav" id="som_tecla_clap"></audio>
+    <audio src="keye.wav" id="som_tecla_tim"></audio>
+    <audio src="keya.wav" id="som_tecla_puff"></audio>
+    <audio src="keys.wav" id="som_tecla_splash"></audio>
+    <audio src="keyd.wav" id="som_tecla_toim"></audio>
+    <audio src="keyz.wav" id="som_tecla_psh"></audio>
+    <audio src="keyx.wav" id="som_tecla_tic"></audio>
+    <audio src="keyc.wav" id="som_tecla_tom"></audio>
+     
+    <script>
+        function tocaSomPom () {
+            document.querySelector('#som_telca_pom').play();
+        }
+        function tocaSomClap () {
+            document.querySelector('#som_telca_clap').play();
+        }
+        function tocaSomTim () {
+            document.querySelector('#som_telca_tim').play();
+        }
+        function tocaSomPuff () {
+            document.querySelector('#som_telca_puff').play();
+        }
+        function tocaSomSplash () {
+            document.querySelector('#som_telca_splash').play();
+        }
+        function tocaSomToim () {
+            document.querySelector('#som_telca_toim').play();
+        }
+        function tocaSomPsh () {
+            document.querySelector('#som_telca_psh').play();
+        }
+        function tocaSomTic () {
+            document.querySelector('#som_telca_tic').play();
+        }
+        function tocaSomTom () {
+            document.querySelector('#som_telca_tom').play();
+        }
+    </script>
+</body>
+</html>
